@@ -4,4 +4,4 @@ services:
   app:
     image: hacker-box:latest
     ports:
-      - 3000:3000
+      - 3128:3128

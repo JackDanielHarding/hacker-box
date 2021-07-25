@@ -7,5 +7,6 @@ RUN apt-key add openvpn-repo-pkg-key.pub
 RUN wget -O /etc/apt/sources.list.d/openvpn3.list https://swupdate.openvpn.net/community/openvpn3/repos/openvpn3-buster.list
 RUN apt update
 RUN apt -y install openvpn
+# RUN apt -y install squid
 
 CMD echo "Hello World"
